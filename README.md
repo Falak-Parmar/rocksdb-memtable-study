@@ -5,9 +5,8 @@ RocksDB memtable layer. In-memory write buffer for the LSM tree.
 Files: source/ (unmodified RocksDB memtable code, commit abc123)
 
 ## Team
-- Name 1
-- Name 2
-- Name 3
+- 202518035 - Aditya Jana
+- 202518053 - Falak Parmar
 
 ## Build requirements
 - RocksDB build environment (cmake, gcc/clang)
