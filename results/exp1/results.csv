@@ -1,0 +1,7 @@
+label,memtablerep,benchmark,elapsed_us,throughput_mib_s,write_us_op,bytes_mib
+SkipList_Seq,skiplist,fillseq,554505.0,100.612,1.10901,55.7899
+SkipList_Rand,skiplist,fillrandom,854790.0,65.2674,1.70958,55.7899
+HashSkipList_Seq,hashskiplist,fillseq,112025.0,498.013,0.22405,55.7899
+HashSkipList_Rand,hashskiplist,fillrandom,112901.0,494.149,0.225802,55.7899
+HashLinkList_Seq,hashlinklist,fillseq,75478.0,739.155,0.150956,55.7899
+HashLinkList_Rand,hashlinklist,fillrandom,68830.0,810.547,0.13766,55.7899
