@@ -119,3 +119,14 @@ Expected outputs include:
 
 - Report: `report/report.md`
 - Slides: `slides/presentation.pdf`
+
+## Trust & Transparency notes
+
+- **Source & Attribution**: Developed as an academic group project for the DS614 course at DA-IICT by me and my partner, Aditya Jana. The experimental data is generated using Facebook's open-source RocksDB repository, specifically using the native `memtablerep_bench` benchmarks.
+- **Motive**: Created to analyze systems-level database structures and measure the empirical impacts of memory buffer representation choices and flow control parameters on database write operations.
+- **Modifications**: Coded automated benchmark execution scripts, compiled threshold sweep loops, and constructed WriteBufferManager simulation frameworks.
+- **Limitations**:
+  - Benchmarks reflect the hardware configuration (CPU threads, memory speed, drive latency) of the local testing machine; performance metrics may vary on different architecture setups.
+  - The write-stall modeling is a software simulation in python; it does not fully emulate low-level OS page-cache locks or physical device queuing latencies.
+- **Tooling & AI Usage**: AI coding assistants were utilized to generate the Python subprocess drivers running the benchmarking binary, parse the unstructured stdout text outputs into clean CSV formats, and render matplotlib comparison plots.
+
